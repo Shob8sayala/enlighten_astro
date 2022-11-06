@@ -3,9 +3,9 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
-import 'package:phanerozoic_assignment/providers/userProvider.dart';
-import 'package:phanerozoic_assignment/utils/preferences.dart';
-import 'package:phanerozoic_assignment/utils/sideDrawerItem.dart';
+import 'package:enlighten_astro/providers/userProvider.dart';
+import 'package:enlighten_astro/utils/preferences.dart';
+import 'package:enlighten_astro/utils/sideDrawerItem.dart';
 import 'package:provider/provider.dart';
 
 class SideDrawer extends StatelessWidget {

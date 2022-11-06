@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:phanerozoic_assignment/models/userModel.dart';
+import 'package:enlighten_astro/models/userModel.dart';
 
 class UserProvider with ChangeNotifier {
   User _user = User(phoneNumber: "0000000000");

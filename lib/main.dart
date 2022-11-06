@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:phanerozoic_assignment/providers/moneyProvider.dart';
-import 'package:phanerozoic_assignment/providers/userProvider.dart';
-import 'package:phanerozoic_assignment/screens/consOptionsScreen.dart';
-import 'package:phanerozoic_assignment/screens/consultancyConf.dart';
-import 'package:phanerozoic_assignment/screens/homePage.dart';
-import 'package:phanerozoic_assignment/screens/loginScreen.dart';
-import 'package:phanerozoic_assignment/screens/paymentConfScreen.dart';
-import 'package:phanerozoic_assignment/screens/paymentScreen.dart';
-import 'package:phanerozoic_assignment/screens/profileScreen.dart';
-import 'package:phanerozoic_assignment/screens/splashScreen.dart';
-import 'package:phanerozoic_assignment/screens/userDetailsScreen.dart';
-import 'package:phanerozoic_assignment/screens/walletScreen.dart';
-import 'package:phanerozoic_assignment/utils/preferences.dart';
+import 'package:enlighten_astro/providers/moneyProvider.dart';
+import 'package:enlighten_astro/providers/userProvider.dart';
+import 'package:enlighten_astro/screens/consOptionsScreen.dart';
+import 'package:enlighten_astro/screens/consultancyConf.dart';
+import 'package:enlighten_astro/screens/homePage.dart';
+import 'package:enlighten_astro/screens/loginScreen.dart';
+import 'package:enlighten_astro/screens/paymentConfScreen.dart';
+import 'package:enlighten_astro/screens/paymentScreen.dart';
+import 'package:enlighten_astro/screens/profileScreen.dart';
+import 'package:enlighten_astro/screens/splashScreen.dart';
+import 'package:enlighten_astro/screens/userDetailsScreen.dart';
+import 'package:enlighten_astro/screens/walletScreen.dart';
+import 'package:enlighten_astro/utils/preferences.dart';
 import 'package:provider/provider.dart';
 
 void main() async {
@@ -38,6 +38,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
+      title: "Enlighten Astro",
       theme: ThemeData(
         textTheme: const TextTheme(
           bodyText2: TextStyle(

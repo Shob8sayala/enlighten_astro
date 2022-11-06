@@ -3,10 +3,10 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
-import 'package:phanerozoic_assignment/utils/appBar.dart';
-import 'package:phanerozoic_assignment/utils/bottomNavBar.dart';
-import 'package:phanerozoic_assignment/utils/sideDrawer.dart';
-import 'package:phanerozoic_assignment/widgets/customContainer.dart';
+import 'package:enlighten_astro/utils/appBar.dart';
+import 'package:enlighten_astro/utils/bottomNavBar.dart';
+import 'package:enlighten_astro/utils/sideDrawer.dart';
+import 'package:enlighten_astro/widgets/customContainer.dart';
 
 class PaymentConfScreen extends StatelessWidget {
   const PaymentConfScreen({super.key});

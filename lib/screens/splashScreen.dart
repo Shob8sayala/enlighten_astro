@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:go_router/go_router.dart';
-import 'package:phanerozoic_assignment/models/userModel.dart';
-import 'package:phanerozoic_assignment/providers/moneyProvider.dart';
-import 'package:phanerozoic_assignment/providers/userProvider.dart';
-import 'package:phanerozoic_assignment/screens/homePage.dart';
-import 'package:phanerozoic_assignment/screens/loginScreen.dart';
-import 'package:phanerozoic_assignment/utils/preferences.dart';
+import 'package:enlighten_astro/models/userModel.dart';
+import 'package:enlighten_astro/providers/moneyProvider.dart';
+import 'package:enlighten_astro/providers/userProvider.dart';
+import 'package:enlighten_astro/screens/homePage.dart';
+import 'package:enlighten_astro/screens/loginScreen.dart';
+import 'package:enlighten_astro/utils/preferences.dart';
 import 'package:provider/provider.dart';
 
 bool isInitialized = false;
